@@ -1,0 +1,18 @@
+git clone --config="http.proxy=http://green2350:14191230gG@192.168.2.1:8080" https://github.com/green2350-cmis/green2350-cmis-wd.git
+cd: go into the folder
+ls: look inside
+gedit: edit or create file
+cat: view file
+git status: show changes, modified files or creat and modified/added file
+git push: saving
+ls <directory name>:  List contents of a directory
+cd: Go home.
+cd <directory name>:  Change directory
+cd ..: Go up
+cat <file name>: View the contents of a file
+gedit <file name> &
+Git Commands
+git clone --config="http.proxy=http://uname:pword@192.168.2.1:8080" http://url-to-your-repo
+git add <file name>
+git commit -m "Commit Comment"
+git push
