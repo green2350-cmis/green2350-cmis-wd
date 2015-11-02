@@ -1,0 +1,10 @@
+Start Terminal Program by clicking the black icon on the left
+Clone your repository by typing  git clone --config="http.proxy=http://green2350:14191230gG@192.168.2.1:8080" https://github.com/green2350-cmis/green2350-cmis-wd.git and hit enter
+Go into your repository by typing cd green2350-cmis-wd/
+Type gedit git_process.txt to create the document
+After you are done with editing the document, save the document and close it
+Type git add git_process.txt into Terminal
+Type git commit -m "write the description of what you didto the document"
+Type git push 
+Enter you username for github.com
+Enter the password
