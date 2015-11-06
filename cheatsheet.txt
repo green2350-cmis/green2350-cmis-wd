@@ -16,3 +16,18 @@ git clone --config="http.proxy=http://uname:pword@192.168.2.1:8080" http://url-t
 git add <file name>
 git commit -m "Commit Comment"
 git push
+pwd : view the file you're in in sftp
+sftp green2350@cmis-hsteacher : connect to the teacher file
+!ls: view the file in your repository
+!cat nameoffolder :view content of that folder
+!...: only works with sftp
+put (filename): upload the file (from my computer to that computer)
+rm filename : remove the file
+put * = remove all
+!ls * show everything (do this bfore put *) before putting or removin all file
+rm * = remove all 
+
+
+
+
+
