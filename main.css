@@ -1,17 +1,54 @@
 body {
 	background-color:yellow;
+	border-style: dashed
+	font-family:"Courier New", Monospace;
+	font-size: 60px;
 }
-header }
+header {
 	background-color:pink;
+	border-style: solid; 
+	font-family: Trebuchet;
+	font-size: 50px ;
+	border-width:25px;
 }
-h1{
-	font-family:Chunk;
+nav {
+	background-color: blue; 
+	border-style: double; 
+	font-family: Arial;
+	font-size: 40px;
+}
+h1 {
+	font-family:Andele Mono;
 	color:green;
 	font-size:35px; 
+	border-style: ridge;
 }
-h2 }
-	font family:Chunk;
+main {
+	background-color: green ;
+	border-style: inset;
+	font-family: italic;
+	font-size:25px;
+}
+h2 {
+	font-family:verdana;
 	color:purple;
 	font-size:20px;
+	border-style:outset;
+	font-size:15px;
+	font-style: italic;
+}
+p } 
+	background-color: purple;
+	border-style:mix;
+	font-family: impact;
+	font-size:10px;
+	font-style: italic;
+	
+}
+footer {
+	background-color: red;
+	border-style: double;
+	font-family: ariel;
+	font-size:10px;
 }
 
