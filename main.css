@@ -1,54 +1,58 @@
 body {
 	background-color:yellow;
-	border-style: dashed
-	font-family:"Courier New", Monospace;
+	font-family:"Courier New", Courier, monospace;
 	font-size: 60px;
+	border-style: dashed;
+	border-width:25px;
+	border-color:#99CCFF;
 }
 header {
 	background-color:pink;
 	border-style: solid; 
-	font-family: Trebuchet;
+	border-color: red;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 50px ;
 	border-width:25px;
 }
-nav {
-	background-color: blue; 
-	border-style: double; 
-	font-family: Arial;
-	font-size: 40px;
-}
 h1 {
-	font-family:Andele Mono;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	color:green;
-	font-size:35px; 
-	border-style: ridge;
+	font-size:70px; 
+	border-style: groove;
+	border-color:purple;
+	border-width:20px;
 }
 main {
 	background-color: green ;
 	border-style: inset;
-	font-family: italic;
-	font-size:25px;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:45px;
+	border-width: 20px;
+	border-color:#CC6666;
 }
 h2 {
-	font-family:verdana;
+	font-family:"Comic Sans MS", cursive, sans-serif;
 	color:purple;
-	font-size:20px;
+	font-size:45px;
 	border-style:outset;
-	font-size:15px;
+	font-size:30px;
 	font-style: italic;
+	border-width:10px;
+	border-color:#66FF99;
 }
-p } 
+p {
 	background-color: purple;
 	border-style:mix;
-	font-family: impact;
-	font-size:10px;
+	font-family: impact;"Courier New", Courier, monospace;
+	font-size:25px;
 	font-style: italic;
-	
 }
 footer {
 	background-color: red;
 	border-style: double;
-	font-family: ariel;
-	font-size:10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:30px;
+	border-width: 10px;
+	border-color:#FF6600;
 }
 
