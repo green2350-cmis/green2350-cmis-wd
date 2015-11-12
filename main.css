@@ -2,7 +2,7 @@ body {
 	background-color:yellow;
 	font-family:"Courier New", Courier, monospace;
 	font-size: 60px;
-	border-style: dashed;
+	border-style:dotted solid;
 	border-width:25px;
 	border-color:#99CCFF;
 }
@@ -21,6 +21,7 @@ h1 {
 	border-style: groove;
 	border-color:purple;
 	border-width:20px;
+	background-color:#00FFCC;
 }
 main {
 	background-color: green ;
@@ -39,13 +40,15 @@ h2 {
 	font-style: italic;
 	border-width:10px;
 	border-color:#66FF99;
+	background-color:#FF9966;
 }
 p {
 	background-color: purple;
-	border-style:mix;
-	font-family: impact;"Courier New", Courier, monospace;
+	border-style:dotted solid double;
+	font-family:"Courier New", Courier, monospace;
 	font-size:25px;
 	font-style: italic;
+	color: yellow;
 }
 footer {
 	background-color: red;
@@ -54,5 +57,23 @@ footer {
 	font-size:30px;
 	border-width: 10px;
 	border-color:#FF6600;
+	background-color:#FF99CC;
 }
+Requirements
+
+*Create a new file called "main.css"
+*Add a link element to the head of your index.html file
+<link rel="stylesheet" href="main.css" type="text/css">
+*Edit the main.css file
+*add a declaration for each element in the body of your index.html file.
+*add properties to style the background color of each element.
+*add properties to style the border of each element.
+*add properties to style the font of each element.
+*View your index.html in the development server.
+*Validate your index.html file.
+*Validate your main.css file.
+*Copy this list of requirements and paste it into your "main.css" file as a css comment. Put an asterisk in front of each one that you did.
+*Upload to the production server with sftp.
+*View your index.html in the production server.
+
 
