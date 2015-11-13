@@ -1,0 +1,49 @@
+body {
+	background-color: white;
+}
+main{
+	border-color:red;
+	border-style: dashed;
+}
+header {
+	background-color:yellow;
+}
+p {
+	color:green;
+}
+h1 {
+	color: yellow;
+	background-color: green;
+	font-style: italic;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:30px;
+}
+h2 {
+	color: yellow;
+	background-color:blue;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
+h3 {
+	color:blue;
+	background-color:orange;
+	border-bottom-style:dotted;
+	border-bottom-color:blue;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+}
+p1 {
+	color: purple;
+}
+footer {
+	border-style:outset;
+	border-bottom-color:blue;
+	border-left-color:yellow;
+	border-right-color:white;
+	background-color:orange;
+	color: blue;
+}
+p2 {
+	font-size:7px;
+}
+
