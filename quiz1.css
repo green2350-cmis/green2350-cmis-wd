@@ -1,0 +1,61 @@
+body {
+	background-color:white;
+}
+header {
+	background-color:red;
+}
+h1 {
+	background-color:green;
+	color:yellow;
+	font-family:Impact, Charcoal, sans-serif;
+	font-style: italic;
+	border-bottom-style:dashed;
+	border-color:yellow;
+}
+p {
+	color:blue;
+	font-family:Impact, Charcoal, sans-serif;
+	font-style: italic;
+	border-bottom-style:dashed;
+	border-width:10px;
+	border-color:yellow;
+}
+main {
+	border-left-style:groove;
+	border-right-style:groove;
+	border-left-color:orange;
+	border-right-color:orange;
+	border-width:10px;
+
+}
+h2 {
+	background-color:purple;
+	color:yellow;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;
+}
+h3 {
+	background-color:yellow;
+	color:purple;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px;
+	border-top-style:dashed;
+	border-top-color:purple;
+}
+p1 {
+	color:blue;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px;
+}
+footer {
+	border-left-style: solid;
+	border-right-style:solid;
+	border-left-color:red;
+	border-right-color:blue;
+	border-top-style: dotted;
+	border-top-color:black;
+	border-top-width:5px;
+	color:blue;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
