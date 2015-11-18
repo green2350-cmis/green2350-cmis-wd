@@ -26,6 +26,22 @@ rm filename : remove the file
 put * = remove all
 !ls * show everything (do this bfore put *) before putting or removin all file
 rm * = remove all 
+mkdir (foldername): create a sub-folder/folder
+rmdir (folder name): remove a folder/ sub- folder
+cd (foldername): go into that folder-subfolder
+cd ..: go to out of the current folder
+cd: go all the way back before repository
+sftp green2350@cmis-hsteacher
+type yes and enter the passowrd
+type cd public_html
+mkdir (foldername):create the file
+make sure to start sftp after go into the sub-folder-or folder you're working on
+go into sftp green2350@cmis-hsteacher
+cd public_html
+mkdir (foldername) in the sftp <same folder name as in the repository> :create folder in sftp same one as you're working on in repository
+cd (foldername you are working on)
+pwd: showing where you are make sure you're in the file you're wroking on
+
 
 
 
