@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			Lists and Links
+		</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<header>
+			<h1>
+				Lists and Links
+			</h1>
+		</header>
+		<nav>
+		</nav>
+		<main>
+			<h2>
+				How To Create a new Webpage on the Production Server
+			</h2>
+			<ol type="1">
+				<li>
+					Clone your repository and type cd green2350-cmis-wd.
+				</li>
+				<li>
+					Type gedit index.html & and gedit main.css & to create the files
+				</li>
+
+				<li>
+					Type python -m SimpleHTTPServer (in the repository folder) to run the webpage on the development server
+				</li>
+				<li>
+					After you are done with your html and styling, check the webpage on the development server by going to localhost:8000/filename and validate your code. Then save your work and close it.
+				</li>
+				<li>
+					In terminal, git add (filename), git commit -m"Desciption of what you did", and git push.
+				</li>
+				<li>
+					To upload the file to the production server, start sftp by typing sftp green2350@cmis-hsteacher to connect to the production server.
+				</li>
+				<li>
+					Type cd public_html and enter your password. Type !ls to view the files in the folder.
+				</li>
+				<li>
+					Type put (filename) to upload the file or put * to put all the files.
+				</li>
+				<li>
+					View the file by going to cmis-hsteacher/~green2350/filename
+				</li>
+			</ol>
+			<h3>
+				Useful Websites
+			</h3>
+			<ul style="list-style-type:disc">
+			
+				<li>
+					Text color/Background-color:<a> http://www.w3schools.com/cssref/css_colors.asp </a>
+				</li>
+				<li>
+					Font-style: http://www.w3schools.com/cssref/css_websafe_fonts.asp
+				</li>
+				<li>
+					Font-style:http://www.w3schools.com/html/html_formatting.asp
+				</li>
+					Border-style:http://www.w3schools.com/css/css_border.asp
+				</li>
+					HTML-Basics: http://www.w3schools.com/html/html_basic.asp
+				</li>
+			</ul>			
+		</main>
+		<footer>
+		</footer>
+</html>
