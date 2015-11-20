@@ -54,6 +54,7 @@ Unordered list
 Ordered list
 <a href="http://www.w3schools.com/html/" target="_blank">TEXT</a>
 * target=_blank"  open the link to a new tab, if no this then open but no new tab
+to upload a sub-folder into sftp, go into the sub-folder by cd filename, then start by typing sftp green2350@cmis-hsteacher in there, and in sftp, cd public_html and cd filename and then put the file
 
 
 
