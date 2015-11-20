@@ -41,6 +41,19 @@ cd public_html
 mkdir (foldername) in the sftp <same folder name as in the repository> :create folder in sftp same one as you're working on in repository
 cd (foldername you are working on)
 pwd: showing where you are make sure you're in the file you're wroking on
+href="folder_name" : link to a folder
+href="..":link back to main folder
+<ul style="list-style-type:disc">
+	<li>
+	</li>
+Unordered list
+<ol>
+	<li>
+	</li>
+</ol>
+Ordered list
+<a href="http://www.w3schools.com/html/" target="_blank">TEXT</a>
+* target=_blank"  open the link to a new tab, if no this then open but no new tab
 
 
 
