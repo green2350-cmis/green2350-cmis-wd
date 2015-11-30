@@ -1,7 +1,16 @@
 body{
+	background-color:#FF9999;
 }
 main {
-{
+	background-color:#00CC99;
+	width:1300px;
+	padding:50px;
+	margin:50px;
+	border-style:dashed;
+	border-color:#000099;
+}
+title {
+}
 h1 {
 }
 h2 {
@@ -19,6 +28,14 @@ header {
 nav {
 }
 table {
+	background-color:#FF6666;
+	width:300px;
+	padding:100px;
+	border:15px;
+	border-color:#FF6633;
+	border-style:solid;
+	margin:1000px;
+	height:3000px;
 }
 tr {
 }
@@ -27,10 +44,24 @@ td {
 th {
 }
 article {
+	background-color:#FFFF66;
+	width:1000px;
+	padding:50px;
+	border:30px;
+	border-color:66CCFF;
+	border-style:dashed;
+	margin:50px;
+	height:500px;
 }
 p {
 }
 ul {
+	background-color:#33CC66;
+	padding:25px;
+	border:30px;
+	border-style:solid;
+	border-color:#339933;
+	margin:25px;
 }
 li {
 }
