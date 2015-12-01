@@ -29,6 +29,7 @@ h3 {
 	padding:20px;
 }
 h4 {
+	color:navy;
 }
 h5 {
 	background-color:#33FFFF;
@@ -41,6 +42,7 @@ footer {
 header {
 }
 nav {
+	background-color:purple;
 }
 table {
 	background-color:#FF6666;
@@ -62,7 +64,6 @@ article {
 	padding:50px;
 	border:30px;
 	margin:50px;
-	height:500px;
 }
 p {
 }
@@ -93,5 +94,11 @@ td {
 	background-color:white;
 	border:solid blue 5px;
 }
-	
-
+footer {
+	background-color: white;
+	border:groove pink 25px;
+	width:400px;
+}
+ul li {
+	border:yellow outset 25px;
+}
