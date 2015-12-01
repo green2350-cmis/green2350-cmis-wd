@@ -1,7 +1,7 @@
 body{
 	background-color:#FF9999;
 }
-main {
+main ol{
 	background-color:#00CC99;
 	width:1300px;
 	padding:50px;
@@ -12,14 +12,29 @@ main {
 title {
 }
 h1 {
+	background-color:#CC9933;
+	border:groove #CC3333 30px;
+	margin:20px;
+	padding:10px;
 }
 h2 {
+	background-color:yellow;
+	border: solid navy 25px; 
+	padding:10px;
+	margin:10px;
 }
 h3 {
+	background-color:#33FF66;
+	border:outset pink 25px;
+	padding:20px;
 }
 h4 {
 }
 h5 {
+	background-color:#33FFFF;
+	border:#3333FF outset 25px;
+	padding:10px;
+	margin:10px;
 }
 footer {
 }
@@ -31,11 +46,9 @@ table {
 	background-color:#FF6666;
 	width:300px;
 	padding:100px;
-	border:15px;
-	border-color:#FF6633;
-	border-style:solid;
-	margin:1000px;
-	height:3000px;
+	border:50px solid #FF6633;
+	margin:30px;
+	height:30px;
 }
 tr {
 }
@@ -48,8 +61,6 @@ article {
 	width:1000px;
 	padding:50px;
 	border:30px;
-	border-color:66CCFF;
-	border-style:dashed;
 	margin:50px;
 	height:500px;
 }
@@ -57,11 +68,30 @@ p {
 }
 ul {
 	background-color:#33CC66;
-	padding:25px;
+	padding:50px;
 	border:30px;
 	border-style:solid;
 	border-color:#339933;
 	margin:25px;
 }
-li {
+ol {
+	background-color:#660099;
+	border-width:20px;
+	border-style:outset;
+	color:white;
+	padding:20px;
+	margin:25px;
+	width:1000px;
+	height:180px;
+
 }
+th {
+	background-color:green;
+	border:dashed purple 10px;
+}
+td {
+	background-color:white;
+	border:solid blue 5px;
+}
+	
+
