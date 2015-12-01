@@ -67,6 +67,8 @@ to upload a sub-folder into sftp, go into the sub-folder by cd filename, then st
 </tables>
 colspan : extend horizontally <td colspan="2">
 rowspan : Extend vertically <td rowspan="3">
+cannot cdo rowspan and colspan in different th tb tf over
+do both colspan and rowspan = <td colspan="2" rowspan="3">
 <table border="1"> : show border
 <link rel="stylesheet" href="cssfilename" type="text/css">
 
