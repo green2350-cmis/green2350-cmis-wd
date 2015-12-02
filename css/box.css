@@ -91,14 +91,36 @@ th {
 	border:dashed purple 10px;
 }
 td {
-	background-color:white;
-	border:solid blue 5px;
+	background-color:blue;
+	border:groove blue 5px;
+	color:white;
+}
+table tfoot{
+	background-color:#FFCC99;
+	border:groove #FF9999 10px;
 }
 footer {
 	background-color: white;
 	border:groove pink 25px;
 	width:400px;
 }
-ul li {
+ul {
 	border:yellow outset 25px;
+}
+nav > ul {
+	background-color:#FFFFCC;
+}
+main ul{
+	background-color:#9999CC;
+}
+
+h4 ~ ul {
+	background-color:#990000;
+}
+h5 + ul {
+	background-color:#006699;
+	border:groove #003399 10px;
+}
+li > ul {
+	border:dashed 10px #6600CC;
 }
