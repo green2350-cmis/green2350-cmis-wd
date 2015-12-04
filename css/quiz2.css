@@ -1,0 +1,61 @@
+body {
+	background-color:white;
+}
+header {
+	background-color:yellow;
+	width:500px;
+	height:200px;
+}
+h1 {
+	background-color:red;
+	border:solid 1px yellow;
+	width:400px;
+	height:200px;
+}
+nav > p {
+	color:white;
+}
+nav {
+	margin:100px;
+	border:solid black 1px;
+	padding:5px;
+}
+main {
+	background-color:grey;
+	margin:100px;
+}
+main > p {
+	background-color:white;
+	color:black;
+}
+main > p + p {
+	background-color:black
+	color:white;
+}
+thead {
+	background-color:yellow;
+	border:outset green 5px;
+}
+tbody th {
+	color:red
+	background-color:yellow;
+}
+tbody td {
+	background-color:white;
+}
+tfoot th {
+	color:yellow;
+	background-color:red;
+}
+tfoot td {
+	background-color:white;
+}
+footer > p {
+	background-color:blue;
+	color:white
+}
+footer {
+	border:dashed blue 10px;
+	margin:30px;
+	padding:5px;
+}
