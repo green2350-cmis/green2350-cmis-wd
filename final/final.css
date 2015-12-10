@@ -1,1 +1,18 @@
-.
+* {
+	outline:dotted red 1px;
+}
+nav {
+	width:200px;
+	float:left;
+	border:solid 2px black;
+	height:500px;
+}
+main {
+	margin-left:201px;
+}
+footer {
+	margin-left:201px;
+}
+img {
+	float:right;
+}
