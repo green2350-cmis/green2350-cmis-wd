@@ -2,13 +2,15 @@
 	outline: dotted red;
 }
 nav {
+	float:left;
 	width:250px;
 	height:500px;
 }
 main {
 	margin-left:251px;
-	clear: both;
+//	clear: both;
 }
+
 p {
 	font-family: 'Lobster', cursive;
 }
@@ -25,6 +27,15 @@ h3 {
 	font-family: 'Lobster', cursive;
 }
 h2 {
+	clear:both;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+img {
+	float:right;
+}
+br{
+	clear:both;
+}
+	
 
+}
