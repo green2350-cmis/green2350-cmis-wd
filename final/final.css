@@ -1,4 +1,3 @@
-
 nav {
 	width: 300px;
         float:left; 
@@ -6,6 +5,8 @@ nav {
 	border-style:groove;
 	border-color:#339966;
 	border-width:15px;
+	background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSt47qIe-GW12evXCjvLmqsL6j7q-N5URE7ugQIyG_cuy9HrzZiVg);
+	clear:left;
 }
 body {
 	background-color:#FFCCCC;
@@ -14,33 +15,49 @@ body {
 main {
 	margin-left:330px;
 	width:1265px;
-	background-color:#F985B6;
-	background-image:url(http://38.media.tumblr.com/0ff7fa049f988419860fb84459a2e39e/tumblr_inline_mqok8erB7J1qz4rgp.png);
+}
+main p {
+	font-family: 'Lobster', cursive;
+	font-size:30px;
+	margin:10px;
+	background-color:white;
+}
+h2 ~ p {
+	margin-right:600px;
 }
 p {
 	font-family: 'Lobster', cursive;
-	font-size:20px;
+	font-size:30px;
+	margin:20px;
+	border-style:ridge;
+	border-color:#CC3366;
+	border-width:15px;
+	padding:15px;
 }
 h1 {
 	font-family: 'Sancreek', cursive;
-	
 }
 table {
 	font-family: 'Playfair Display', serif;
 	font-size:20px;
 }
-ul {
+main ul {
 	font-family: 'Playfair Display', serif;
 	font-size:20px;
+	margin:30px;
+	background-color:#FFCCCC;
+	margin-right:700px;
 }
 h3 {
 	font-family: 'Lobster', cursive;
 	font-size:30px;
+	margin:50px;
 }
 h2 {
 	clear:both;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size:40px;
+	background-color:#FFCCFF;
 }
 img.right {
 	float:right;
@@ -49,27 +66,51 @@ img.right {
 	border-style:groove;
 	border-color:#CC6699;
 	border-width:15px;
+	margin-bottom:15px;
 }
 h1 {
-	color:#990066;
+	color:#663333;
 	background-color:#9999CC;
 	border-style:groove;
 	border-width:15px;
 	border-color:#990066;
+	background-image:url(http://previews.123rf.com/images/gurza/gurza1202/gurza120200040/12480937-Seamless-shoes-pattern-Stock-Vector-shoe.jpg);
 }
 footer {
 	clear:both;
 	font-size:20px;
-	background-color:#FF6666;
-	font-family:
+	background-color:#CC9999;
+	color:white;
+	border-style:double;
+	border-color:#FFFF66;
+	border-width:10px;
 }
 table {
 	width:600px;
 	border-style:groove;
 	border-width:15px;
 	background-color:#CCCCCC;
+	margin:30px;
 }
 thead {
 	background-color:#CC99CC;
-{
+}
+td {
+	border-style:solid;
+	border-color:black;
+	border-width:2px;
+}
+br {
+	clear:right;
+}
+article {
+	background-image:url(http://38.media.tumblr.com/0ff7fa049f988419860fb84459a2e39e/tumblr_inline_mqok8erB7J1qz4rgp.png);
+	border-style:ridge;
+	border-color:#996699;
+	border-width:15px;
+	margin-bottom:30px;
+}
+img.foot {
+	margin-left:450px;
+}
 
