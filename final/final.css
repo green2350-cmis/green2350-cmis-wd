@@ -1,41 +1,75 @@
-* {
-	outline: dotted red;
-}
+
 nav {
-	float:left;
-	width:250px;
-	height:500px;
+	width: 300px;
+        float:left; 
+	background-color:#99FF99;
+	border-style:groove;
+	border-color:#339966;
+	border-width:15px;
+}
+body {
+	background-color:#FFCCCC;
+	
 }
 main {
-	margin-left:251px;
-//	clear: both;
+	margin-left:330px;
+	width:1265px;
+	background-color:#F985B6;
+	background-image:url(http://38.media.tumblr.com/0ff7fa049f988419860fb84459a2e39e/tumblr_inline_mqok8erB7J1qz4rgp.png);
 }
-
 p {
 	font-family: 'Lobster', cursive;
+	font-size:20px;
 }
 h1 {
 	font-family: 'Sancreek', cursive;
+	
 }
 table {
 	font-family: 'Playfair Display', serif;
+	font-size:20px;
 }
 ul {
 	font-family: 'Playfair Display', serif;
+	font-size:20px;
 }
 h3 {
 	font-family: 'Lobster', cursive;
+	font-size:30px;
 }
 h2 {
 	clear:both;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:40px;
 }
-img {
+img.right {
 	float:right;
+	clear:right;
+	padding:5px;
+	border-style:groove;
+	border-color:#CC6699;
+	border-width:15px;
 }
-br{
+h1 {
+	color:#990066;
+	background-color:#9999CC;
+	border-style:groove;
+	border-width:15px;
+	border-color:#990066;
+}
+footer {
 	clear:both;
+	font-size:20px;
+	background-color:#FF6666;
+	font-family:
 }
-	
+table {
+	width:600px;
+	border-style:groove;
+	border-width:15px;
+	background-color:#CCCCCC;
+}
+thead {
+	background-color:#CC99CC;
+{
 
-}
