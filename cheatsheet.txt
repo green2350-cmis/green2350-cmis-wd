@@ -71,6 +71,9 @@ cannot cdo rowspan and colspan in different th tb tf over
 do both colspan and rowspan = <td colspan="2" rowspan="3">
 <table border="1"> : show border
 <link rel="stylesheet" href="cssfilename" type="text/css">
+in sftp, mkdir (filename) = create folder
+rmdir (filename)= remove folder (only works when the folder is empty so have to remove files inside the folder before doing it)
+mv (oldname) (newname) = change the file name, replace file name
 
 
 
