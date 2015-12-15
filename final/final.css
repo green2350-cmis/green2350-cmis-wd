@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Sancreek);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 nav {
 	width: 300px;
         float:left; 
@@ -52,6 +56,7 @@ h3 {
 	font-family: 'Lobster', cursive;
 	font-size:30px;
 	margin:50px;
+	background-color:
 }
 h2 {
 	clear:both;
